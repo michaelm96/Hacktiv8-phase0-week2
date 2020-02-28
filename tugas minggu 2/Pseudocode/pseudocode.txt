@@ -35,7 +35,7 @@ ENDFOR
 //Periksa Kuku
 INIT checked
 INIT kuku
-GET siswa is 40
+SET siswa is 40
 FOR each checked siswa is 0, checked LESS THAN siswa THEN
   INCREMENT checked THEN
     IF kuku EQUAL TO "Panjang"

@@ -37,7 +37,7 @@ INIT checked
 INIT kuku
 SET siswa to 40
 FOR each checked siswa is 0, checked LESS THAN siswa THEN
-  INCREMENT checked THEN
+  INCREMENT checked 
     IF kuku EQUAL TO "Panjang"
       DISPLAY "Hukuman"
     ELSE 

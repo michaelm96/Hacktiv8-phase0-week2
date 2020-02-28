@@ -1,0 +1,46 @@
+//Newton 2nd law
+
+READ mass is m
+READ acceleration is a
+SET m is 600
+SET a is 2
+STORE F is M times A
+DISPLAY F
+
+//Tahun Kabisat
+
+GET tahun
+IF tahun mod 4 EQUAL TO 0 and tahun mod 100 NOT EQUAL TO 0 THEN
+  DISPLAY "Tahun Kabisat"
+ELSE IF tahun mod 4 EQUAL TO 0 AND tahun mod 100 EQUAL TO 0 AND tahun mod 400 EQUAL TO 0 THEN
+  DISPLAY "Tahun Kabisat"
+ELSE
+  DISPLAY "Bukan Tahun Kabisat"
+ENDIF
+
+//Laundry Day
+
+GET maxPakaian
+GET pakaian
+SET maxPakaian is 20
+FOR pakaian LESS THAN maxPakaian THEN 
+  INCREMENT pakaian PLUS 1
+    IF pakaian EQUAL TO 20 THEN
+      DISPLAY "Start Mencuci"
+    ELSE
+      DISPLAY "Tambah Pakaian Lagi"
+    ENDIF
+ENDFOR
+
+//Periksa Kuku
+Get checked
+GET kuku
+GET siswa is 40
+FOR each checked siswa is 0, checked LESS THAN siswa THEN
+  INCREMENT checked THEN
+    IF kuku EQUAL TO "Panjang"
+      DISPLAY "Hukuman"
+    ELSE 
+      DISPLAY "Pujian"
+    ENDIF
+ENDFOR

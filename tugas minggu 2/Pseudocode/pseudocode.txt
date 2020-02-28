@@ -20,8 +20,8 @@ ENDIF
 
 //Laundry Day
 
-GET maxPakaian
-GET pakaian
+INIT maxPakaian
+INIT pakaian
 SET maxPakaian is 20
 FOR pakaian LESS THAN maxPakaian THEN 
   INCREMENT pakaian PLUS 1

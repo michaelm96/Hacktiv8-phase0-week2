@@ -33,8 +33,8 @@ FOR pakaian LESS THAN maxPakaian THEN
 ENDFOR
 
 //Periksa Kuku
-Get checked
-GET kuku
+INIT checked
+INIT kuku
 GET siswa is 40
 FOR each checked siswa is 0, checked LESS THAN siswa THEN
   INCREMENT checked THEN

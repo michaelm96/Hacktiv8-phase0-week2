@@ -26,7 +26,7 @@ for (var l = 20; l >= 1; l--) {
 
 // Ganjil Genap
 
-for (var i = 0; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
 	if (i % 2 == 0) {
 		console.log('Genap');
 	} else if (i % 2 !== 0) {

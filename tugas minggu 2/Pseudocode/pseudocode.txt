@@ -1,9 +1,9 @@
 //Newton 2nd law
 
-READ mass is m
-READ acceleration is a
-SET m is 600
-SET a is 2
+READ m
+READ a
+SET m to 600
+SET a to 2
 STORE F is M times A
 DISPLAY F
 
@@ -20,9 +20,9 @@ ENDIF
 
 //Laundry Day
 
-INIT maxPakaian
-INIT pakaian
-SET maxPakaian is 20
+READ maxPakaian
+READ pakaian
+SET maxPakaian to 20
 FOR pakaian LESS THAN maxPakaian THEN 
   INCREMENT pakaian PLUS 1
     IF pakaian EQUAL TO 20 THEN
@@ -33,8 +33,8 @@ FOR pakaian LESS THAN maxPakaian THEN
 ENDFOR
 
 //Periksa Kuku
-INIT checked
-INIT kuku
+READ checked
+READ kuku
 SET siswa to 40
 FOR each checked siswa is 0, checked LESS THAN siswa THEN
   INCREMENT checked 
